@@ -4,8 +4,8 @@
 replicaCount: 1
 image:
   pullPolicy: IfNotPresent
-  repository: registry.hub.docker.com/jhkwon91/pythonflasksampleapp/python-flask-sampleapp
-  tag: master
+  repository: registry.hub.docker.com/jhkwon91/pythonflasksampleapp
+  tag: with-helm
 service:
   name: python
   type: LoadBalancer
